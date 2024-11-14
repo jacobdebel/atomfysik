@@ -1,0 +1,310 @@
+#+title: Introduktion til atomfysik
+#+subtitle: Fysik B
+#+author: Jacob Debel
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Atomets opbygning
+
+** Atomet
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/atom.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+*Husk*
+- Atomet består af *elektroner* og en *kerne*.
+- Kernen består af *neutroner* og *protoner*.
+- Neutroner og protoner består af *kvarker*.
+- Antallet af protoner kaldes for *atomnummeret* og betegnes $Z$.
+- I et neutralt atom er antallet af protoner og elektroner ens.
+- elektonerne er fordelt på forskellige skaller.
+- Skallerne er opdelt i forskellige orbitaler.
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Elektronen
+- Elektronen har ladningen $-1.602 \cdot 10^{-19}$ C. Ladningen $+1.602 \cdot 10^{-19}$ C kaldes for *elementarladningen* og betegnes med symbolet $e$.
+- Elektronen har da altså ladningen $-e$.
+- Elektronerne kan kun være i bestemte diskrete *orbitaler*.
+
+** Elektronorbitaler
+[[./img/orbitaler.jpg]]
+
+** Orbitalsimulator
+#+attr_html: :width 500px
+[[https://www.falstad.com/qmatom/qmatom.html][file:./img/orbital_simulator.png]]
+
+#+reveal_html: <div style="font-size: 60%;">
+- Tryk på billedet eller følg linket: https://www.falstad.com/qmatom/qmatom.html
+- Få simulatoren til at frembringe de viste orbitaler på forrige slide.
+- Undersøg de forskellige *settings*.
+#+reveal_html: </div>
+
+** Atomsimulator
+#+reveal_html: <div style="display: grid; grid-template-columns: 80% auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/cheerpj/hydrogen-atom/latest/hydrogen-atom.html?simulation=hydrogen-atom&locale=da"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+- Leg med simulatoren.
+- Undersøg de forskellige atommodeller gennem tiden ude til venstre i simulatoren.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Atomkernen
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+[[./img/atomzoom2.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+- Atomkernen består af neutroner og protoner og *gluoner*, som holder dem sammen.
+- neutroner og protoner består hver især igen af *kvarker*.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div style="font-size: 60%;">
+*Opgave*
+- Hvordan er henholdsvis *neutronen* og *protonen* sammensat af kvarker, for at få de korrekte ladninger?
+#+reveal_html: </div>
+
+** Partikelfysikkens *periodiske system*
+
+#+attr_html: :width 500px
+[[./img/elementarpartikler_white.png]]
+
+* Fotoner
+#+attr_html: :width 500px
+[[./img/fotoner.png]]
+** Fotoner
+[[./img/foton.jpg]]
+
+** Fotoner
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+- En foton er en *lyspartikel*.
+- En fotons energi afhænger af *frekvensen*.
+  $$E_\text{foton} = h \cdot f\,,$$
+  hvor $h=6.63 \cdot 10^{-34}\, J\cdot s$ kaldes *Plancks konstant*.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 1*
+Lysets synlige område er inden for bølgelængdeintervallet mellem 400 nm og 750 nm.
+- Beregn henholdsvis den mindste og største fotonenergi, en foton skal have, for at den er synlig.
+
+*Opgave 2*
+En foton har frekvensen 620 THz (Terahertz)
+
+- Hvad er fotonens energi?
+- Hvad er bølgelængden?
+- Kan vi se denne foton? Hvilken farve har den eventuelt?
+  
+*Opgave 3*
+- Beregn bølgelængden af fotoner med energien $5.0 \cdot 10^{-20}\,J$.
+  
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Bohrs atommodel for brintatomet
+
+** Bohrs atommodel
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+*Bohrs antagelser*
+
+- Atomet kan kun eksistere i nogle ganske bestemte stationære tilstande.
+- Ændringer fra en tilstand med energien $E_m$ til en anden med energi $E_n$ kan ske ved, at atomet enten udsender (emitterer) eller optager (absorberer) en foton med energien 
+    $$E_\text{foton} = E_m - E_n = h \cdot f\,.$$
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 70%
+[[./img/emission_passer_til_basisfysik_B.png]]
+#+attr_html: :width 70%
+[[./img/absorption_passer_til_basisfysik_B.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Brintatomet
+
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Brintatomets energi*
+
+$$E_n = - h \cdot c \cdot R \cdot \frac{1}{n^2}\,$$
+
+hvor $h=6.63\cdot10^{-34} \, J\cdot s$ er Plancks konstant,
+$c\approx 3 \cdot 10^8 \, m/s$ er lysets hastighed i vakuum 
+og $R= 1.097\cdot 10^7 \,m^{-1}$ kaldes *Rydbergs konstant*.
+
+*Enheden elektronvolt (eV)*
+
+1 eV er defineret som den kinetiske energi én elektron vil opnå, når den accelereres igennem en elektrostatisk potentialforskel på én volt. Konverteringen mellem joule og elektronvolt er:
+
+$$1 \,eV = 1.602 \cdot 10^{-19} \,J$$
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/brintspektret.png]]
+
+[[./img/brintspektret2.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Brintatomet
+
+#+reveal_html: <div style="font-size: 50%;">
+$$E_n = - h \cdot c \cdot R \cdot \frac{1}{n^2}\,$$
+
+hvor $h=6.63\cdot10^{-34} \, J\cdot s$ er Plancks konstant,
+$c\approx 3 \cdot 10^8 \, m/s$ er lysets hastighed i vakuum 
+og $R= 1.097\cdot 10^7 \,m^{-1}$ kaldes *Rydbergs konstant*.
+#+reveal_html: </div>
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 40%;">
+*Opgave 1*
+
+Kontrollér ved beregning energierne (og farverne) for energidiagrammet for brint fra forrige slide. Disse energier kaldes *Balmerserien*.
+
+*Opgave 2*
+
+Bestem, hvilken tilstand et brintatom befinder sig i, når energien for tilstanden er $-0.85 \, eV$.
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 40%;">
+*Opgave 3*
+
+Udled *Rydbergformlen*
+
+$$\frac{1}{\lambda} = - R \cdot \left( \frac{1}{m^2} - \frac{1}{n^2} \right) \text{ for } n < m$$
+
+ud fra
+
+$$h \cdot f = E_m - E_n$$
+
+*Opgave 4*
+
+De bølgelængder, der skyldes overgang til $n=1$, kaldes *Lymanserien*.
+
+- Beregn de fire første bølgelængder i Lymanserien, altså overgangene, $2 \to 1$, $3 \to 1$, $4 \to 1$ og $5 \to 1$.
+ 
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+
+* Laseren
+#+attr_html: :width 60% 
+[[./img/1440px-Lasers.jpeg]]
+
+** Laseren
+#+reveal_html: <div style="font-size: 60%;">
+
+
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+- Laser er et *akronym* for *L*​ight *A*​mplification by *S*​timulated *E*​mission of *R*​adiation.
+
+
+#+attr_html: :width 80%
+[[./img/stimuleret_emission2.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave*
+
+En laserpen udsender lys med en effekt på 2 mW og en bølgelængde på 532 nm.
+
+1. Hvilken farve har lyset?
+2. Bestem energien af fotonerne, der udsendes fra laseren.
+3. Hvor mange fotoner udsendes hvert sekund?
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Lasersimulator
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+[[https://phet.colorado.edu/sims/cheerpj/lasers/latest/lasers.html?simulation=lasers&locale=da][file:./img/laser_simul.png]]
+#+reveal_html: <div style="font-size: 60%;">
+- Åbn simulatoren ved at trykke på billedet eller her: https://phet.colorado.edu/sims/cheerpj/lasers/latest/lasers.html?simulation=lasers&locale=da
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+reveal_html: <div style="font-size: 60%;">
+- Leg med simulatoren.
+- Kan I få laseren til faktisk at lase?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Spektre
+
+#+attr_html: :width 80%
+[[./img/spektre.png]]
+
+** Emissionspektre
+
+[[./img/spektre2.png]]
+
+** Grundstoffernes fingeraftryk
+#+attr_html: :width 80%
+[[./img/periodisk_system_spektra.jpg]]
+
+** Spektralanalyse (i astro)
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+#+attr_html: :width 65%
+[[./img/SDSS.png]]
+
+#+attr_html: :width 65%
+[[./img/hot_cool.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+#+attr_html: :width 70%
+[[./img/forskydning.png]]
+
+#+attr_html: :width 70%
+[[./img/stars.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
