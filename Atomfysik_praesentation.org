@@ -228,7 +228,6 @@ De bølgelængder, der skyldes overgang til $n=1$, kaldes *Lymanserien*.
 #+reveal_html: </div>
 #+reveal_html: </div>
 
-
 * Laseren
 #+attr_html: :width 60% 
 [[./img/1440px-Lasers.jpeg]]
@@ -308,3 +307,11 @@ En laserpen udsender lys med en effekt på 2 mW og en bølgelængde på 532 nm.
 [[./img/stars.jpg]]
 #+reveal_html: </div>
 #+reveal_html: </div>
+
+* Bonusopgaver
+#+attr_html: :height 450px
+[[./ekstraopgaver/Ekstraopgaver_atomfysik.pdf][file:./img/bonusopgaver.png]]
+#+reveal_html: <div style="font-size: 60%;">
+- Klik på (højreklik for at downloade) billedet for at se filen.
+#+reveal_html: </div>
+
